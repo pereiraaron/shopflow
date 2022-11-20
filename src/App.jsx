@@ -4,7 +4,6 @@ import Creation from "./components/Creation/Creation";
 import Filter from "./components/Filter/Filter";
 
 const App = () => {
-  // const colors = ["red", "yellow", "green", "blue", "aqua", "gray"];
   const [showCreation, setShowCreation] = useState(false);
   const [colors, setColors] = useState([]);
 
