@@ -1,0 +1,55 @@
+.creation {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 1rem;
+  border-left: 0.25rem solid #000000;
+  padding: 1.5rem 1.75rem 0rem 1.75rem;
+  margin-left: 0.25rem;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.creation__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.creation__input {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 0.25rem;
+}
+
+.creation__color {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.creation__button {
+  width: 7rem;
+  box-sizing: border-box;
+  justify-self: flex-end;
+  margin-block: auto 3rem;
+  border: 1.5px solid black;
+  padding: 0.25rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  background: transparent;
+  font-weight: 700;
+}
